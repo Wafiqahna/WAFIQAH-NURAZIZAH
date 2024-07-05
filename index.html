@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Jonsuh Hamburger -->
+    <link rel="stylesheet" href="dist/css/hamburgers.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <title>INDONESIA</title>
+  </head>
+  <body id="home">
+    <!-- Header -->
+    <section class="header">
+      <div class="container">
+        <div class="navbar">
+          <ul class="menu">
+            <li>
+              <a href="#home"> <i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li>
+              <a href="#hotel"><i class="fa-solid fa-star"></i>Hotel</a>
+            </li>
+            <li>
+              <a href="#budaya"><i class="fa-solid fa-list"></i>Budaya</a>
+            </li>
+            <li>
+              <a href="#Destinasi"><i class="fa-solid fa-image"></i>Destinasi Parawisata</a>
+            </li>
+          </ul>
+  
+          <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+
+        <div class="hero">
+          <h1 class="animate__animated animate__fadeInUp animate__delay-3s">
+            <span id="t1">Indonesian Tourism</span> <br />
+            <span id="t2">Jelajahi 38 Destinasi Indonesia dari Sabang sampai Merauke!</span>
+          </h1>
+          <div class="hero-jargon">
+            <div class="animate__animated animate__fadeInUp animate__delay-1s">
+              <p><span>Indonesia</span> negeri dengan ribuan pulau yang menyimpan sejuta pesona. Dari pesona alam yang memukau hingga warisan budaya yang kaya. Mari temukan <span>pengalaman tak terlupakan</span> di setiap sudut Nusantara.</p>
+            </div>
+            <button class="about-button">About Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header -->
+
+    <!-- Best Destination -->
+    <section class="best-destination" id="best">
+      <div class="container">
+        <div class="best-destination-box">
+          <div class="box">
+            <h1 data-aos="fade-up">Hotel Favorit</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Berikut ini adalah rekomendasi Hotel pilihan Terbaik di setiap daerah parawisata</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-delay="400">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/images/hotel/stanley-wahid-jakarta.jpg" alt="unsplash.com" />
+                  <div class="loc">
+                    <h3>Stanley Wahid</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Jakarta</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/hotel/gh-universal-bandung.jpg" alt="unsplash.com" />
+                  <div class="loc">
+                    <h3>GH Universal</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Bandung</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/hotel/hotel tentrem - yogyakarta.jpg" alt="unsplash.com" />
+                  <div class="loc">
+                    <h3>Hotel Tentrem</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Yogyakarta</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/hotel/jeeva klui-lombok.jpg" alt="unsplash.com" />
+                  <div class="loc">
+                    <h3>Jeeva Klui</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Nusa Tenggara</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/hotel/Nusa Dua Pantai- bali.jpg" alt="unsplash.com" />
+                  <div class="loc">
+                    <h3>Nusa Dua Beach</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Bali</p>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/hotel/prime plaza - bali.jpg" alt="unsplash.com" />
+                  <div class="loc">
+                    <h3>Prime Plaza</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Bali</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Best Destination -->
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services-box">
+          <div class="box">
+            <h1 data-aos="fade-up">Budaya</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Indonesia adalah negeri yang kaya akan warisan budaya yang tak ternilai. Setiap daerah memiliki keunikan dan tradisi yang mencerminkan keragaman etnis, bahasa, dan agama. Berikut merupakan berbagai budaya mulai dari tarian, upacara sampai tradisi.</p>
+          </div>
+          <div class="box">
+            <div class="service" data-aos="fade-down" data-aos-delay="400">
+              <div class="swiper-slide">
+                <img src="assets/images/budaya/Jaipong.jpg" alt="unsplash.com" />
+                <div class="loc">
+                  <h3>Tarian Jaipong</h3>
+                </div>
+              </div>
+              <p>Jaipongan adalah sebuah jenis tari pergaulan tradisional masyarakat Sunda yang berasal dari wilayah Karawang dan sangat populer di Indonesia.</p>
+            </div>
+            <div class="service" data-aos="fade-up" data-aos-delay="400">
+              <div class="swiper-slide">
+                <img src="assets/images/budaya/melasti.jpeg" alt="unsplash.com" />
+                <div class="loc">
+                  <h3>Upacara Melasti</h3>
+                </div>
+              </div>
+              <p>Melasti adalah upacara pensucian diri untuk menyambut hari raya Nyepi oleh seluruh umat Hindu di Bali.</p>
+            </div>
+            <div class="service" data-aos="fade-down" data-aos-delay="400">
+              <div class="swiper-slide">
+                <img src="assets/images/budaya/labuhan.jpg" alt="unsplash.com" />
+                <div class="loc">
+                  <h3>Labuhan</h3>
+                </div>
+              </div>
+              <p>Labuhan adalah upacara adat yang dilakukan oleh Keraton Yogyakarta dan Surakarta untuk memohon keselamatan dan kesejahteraan raja dan keraton.</p>
+            </div>
+            <div class="service" data-aos="fade-up" data-aos-delay="400">
+              <div class="swiper-slide">
+                <img src="assets/images/budaya/Kuda_Lumping.jpg" alt="unsplash.com" />
+                <div class="loc">
+                  <h3>Kuda Lumping</h3>
+                </div>
+              </div>
+              <p>Kuda lumping juga disebut Jaran kepang adalah tarian tradisional Jawa yang berasal dari Ponorogo, Jawa Timur. Di dalam tarian ini menampilkan sekelompok prajurit tengah menunggang kuda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="gallery-box">
+          <div class="box">
+            <h1 data-aos="fade-up">Destinasi Parawisata</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Berikut ini beberapa Gambar Destinasi parawisata yang ada di Indonesia</p>
+          </div>
+          <div class="box">
+            <a href="assets/images/gallery/gallery-1.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery-1.jpg" alt="unsplash.com" />
+            </a>
+            <a href="assets/images/gallery/gallery-2.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery-2.jpg" alt="unsplash.com" />
+            </a>
+            <a href="assets/images/gallery/gallery-3.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery-3.jpg" alt="unsplash.com" />
+            </a>
+            <a href="assets/images/gallery/gallery-4.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery-4.jpg" alt="unsplash.com" />
+            </a>
+            <a href="assets/images/gallery/gallery-5.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery-5.jpg" alt="unsplash.com" />
+            </a>
+            <a href="assets/images/gallery/gallery-6.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery-6.jpg" alt="unsplash.com" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery -->
+
+
+    <!-- Pre Loader -->
+    <div class="loader">
+      <img src="assets/loader/loader.svg" alt="loading.io" />
+    </div>
+    <!-- Pre Loader -->
+
+    <!-- JS -->
+    <script src="dist/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          type: "fraction",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
